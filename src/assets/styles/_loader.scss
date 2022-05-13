@@ -1,0 +1,59 @@
+
+// PRELOADER
+/* Center the loader */
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    z-index: 997;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ //   transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+    img {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+.loader {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: 998;
+    top:50%;
+    left:50%;
+    border: 5px solid #e5e5e5;
+    border-top: 5px solid #333;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+    animation: loader 1s linear infinite;
+    transform: translate(-50%, -50%) rotate(0deg);
+  
+
+}
+.loader-logo {
+    position: absolute;
+    animation: 0;
+
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+    width: 68px;
+    z-index: 999;
+
+}
+@keyframes loader {
+
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+  // END PRELOADER

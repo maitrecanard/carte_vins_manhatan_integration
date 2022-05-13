@@ -1,0 +1,24 @@
+:root {
+
+    //box shadow
+    --header-shadow: drop-shadow(-1px 6px 4px rgba(0, 00, 0, 0.5));
+    
+    //font
+    --font-family: 'Mulish', sans-serif;
+    --police-lobster:  'lobster_1.3regular';
+
+    //img background
+    --fond-bulle: url('../images/fond_bulle.png') center center / cover ;
+    --fond-biere: url('../images/fond.jpg') center center / cover ;
+    --fond-biere-mobile : url('../images/fond_mobile.jpg') center center / cover ;
+    --fond-boss: url('../images/biere.jpg') center center / cover ;
+    --fond-ingedient: url('../images/ban-biere.jpg') center center / cover ;
+    --fond-bois: url('../images/present-biere.jpg') center center / cover ;
+    --fond-map : url('../images/map.jpg') center center / cover ;
+
+
+    //color
+    --border: #333;
+    --background-presentation: rgba(0, 00, 0, 0.6);
+
+}

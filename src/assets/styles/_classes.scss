@@ -1,0 +1,42 @@
+@import 'media-queries';
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 0 2rem 0;
+
+}
+
+
+h2,h3 {
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    
+}
+h2 {
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    background: #333;
+    color: white;
+}
+article {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    .prices {
+        display: flex;
+        .price1 {
+            flex: 1;
+        }
+        .price2 {
+            flex: 1;
+        }
+        .price3 {
+            flex: 1;
+        }
+    }
+    border-bottom: 1px solid black;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
